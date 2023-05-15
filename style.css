@@ -1,3 +1,8 @@
+
+*{
+    background-color: rgb(50, 66, 66);
+}
+
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
@@ -6,11 +11,13 @@
 }
 
 #display{
+    background-color: aliceblue;
+border: 1px solid blueviolet;
 text-align: right;
 height:70px ;
 line-height:70px ;
 padding:16px 8px ;
-font-size: 25px;
+font-size: 40px;
 }
 
 .buttons{
@@ -26,10 +33,12 @@ font-size: 25px;
 }
 
 .button{
+    color:whitesmoke;
+    border-radius: 5px;
     border:0.5px solid #999;
     line-height: 100px;
     text-align: center;
-    font-size:25px ;
+    font-size:40px ;
     cursor:pointer;
 }
 #equal{
